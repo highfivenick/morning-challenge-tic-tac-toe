@@ -1,0 +1,40 @@
+/* css grid */
+body{
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes{
+display: grid;
+grid-template-columns: 180px 180px 180px ;
+grid-template-rows: 180px 180px 180px;
+font-size: 10rem;
+text-align: center;
+background-image: url(images/board.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+color: rgb(34, 0, 255);
+text-shadow: 0 0 40px rgb(34, 0, 255);
+}
+
+
+.hide{
+  display: none;
+}
+
+#clear{
+  background: black;
+  color: rgb(255, 0, 0);
+  border: 1px solid rgb(255, 0, 0);
+  margin-top: 10px;
+}
+
+.orange{
+  color: rgb(255, 149, 0);
+  text-shadow: 0 0 40px rgb(255, 149, 0);
+}
